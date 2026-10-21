@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Christian Johanes' developer portfolio showcasing web development projects, technical skills, and software development work."
+    />
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Christian Johanes | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Christian Johanes home">
+          Christian<span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to dark theme"
+          aria-pressed="false"
+        >
+          <span aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero section" id="home">
+        <div class="container hero-content">
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+          <h1>
+            Hi, I'm
+            <span class="highlight">Christian Johanes.</span>
+            <br />
+            I turn ideas into digital experiences.
+          </h1>
+
+          <p class="hero-description">
+            I'm an aspiring developer passionate about technology,
+            problem-solving, and building useful digital solutions. I'm
+            continuously learning and exploring ways to create modern,
+            responsive, and user-friendly applications.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects
+            </a>
+
+            <a href="#contact" class="btn btn-secondary"> Let's Connect </a>
+          </div>
+
+          <p class="availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to learning, collaboration, and new opportunities
+          </p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+
+          <h2>Curious Mind. Continuous Growth.</h2>
+
+          <p>
+            I'm Christian Johanes, an aspiring developer who enjoys learning how
+            technology can solve everyday problems. My development journey
+            includes building web applications, exploring backend development,
+            and understanding how different technologies work together.
+          </p>
+
+          <p>
+            Through hands-on projects, I'm developing my skills in web
+            technologies, application development, and version control. I enjoy
+            turning ideas into practical solutions while improving my coding
+            practices along the way.
+          </p>
+
+          <p>
+            I'm committed to continuous learning, writing cleaner code, and
+            creating digital experiences that are useful, accessible, and easy
+            to use.
+          </p>
+
+          <a
+            href="assets/resume.pdf"
+            class="text-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View My Resume &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <p class="eyebrow">MY TECH TOOLKIT</p>
+
+          <h2>Technologies I'm Exploring</h2>
+
+          <p>
+            A growing set of technical skills that I use to learn, experiment,
+            and build projects.
+          </p>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>HTML5</h3>
+              <p>
+                Building semantic, well-structured, and accessible web pages.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3>CSS3</h3>
+              <p>
+                Creating responsive interfaces with modern layouts, Flexbox, and
+                CSS Grid.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3>JavaScript</h3>
+              <p>
+                Adding interactive features and dynamic behavior with modern
+                JavaScript.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3>C# &amp; .NET</h3>
+              <p>
+                Exploring application development, backend logic, and ASP.NET
+                Core.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3>PHP &amp; Laravel</h3>
+              <p>
+                Exploring web application development and server-side
+                programming.
+              </p>
+            </article>
+
+            <article class="skill-card">
+              <h3>Git &amp; GitHub</h3>
+              <p>
+                Tracking code changes, managing repositories, and maintaining
+                project history.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects -->
+      <section class="projects section" id="projects">
+        <div class="container">
+          <p class="eyebrow">A SELECTION OF MY WORK</p>
+
+          <h2>Projects &amp; Experiments</h2>
+
+          <p>
+            Each project is an opportunity to apply what I've learned, solve
+            problems, and improve my development skills.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Employee Management System -->
+            <article class="project-card">
+              <div class="project-image project-image-one" aria-hidden="true">
+                <span>01 / APPLICATION DEVELOPMENT</span>
+              </div>
+
+              <div class="project-info">
+                <h3>Employee Management System</h3>
+
+                <p>
+                  A C# and ASP.NET Core project focused on employee information
+                  management. Explore the source code and implementation on
+                  GitHub.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies">
+                  <li>C#</li>
+                  <li>ASP.NET Core</li>
+                  <li>JSON</li>
+                </ul>
+
+                <button
+                  class="project-details"
+                  type="button"
+                  data-project="employee"
+                >
+                  Explore Project &rarr;
+                </button>
+              </div>
+            </article>
+
+            <!-- Laundry Service Website -->
+            <article class="project-card">
+              <div class="project-image project-image-two" aria-hidden="true">
+                <span>02 / WEB DEVELOPMENT</span>
+              </div>
+
+              <div class="project-info">
+                <h3>Laundry Service Website</h3>
+
+                <p>
+                  A laundry service website project focused on presenting
+                  services through a clear interface and structured web
+                  experience. Explore the source code on GitHub.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Laravel</li>
+                </ul>
+
+                <button
+                  class="project-details"
+                  type="button"
+                  data-project="laundry"
+                >
+                  Explore Project &rarr;
+                </button>
+              </div>
+            </article>
+
+            <!-- Personal Developer Portfolio -->
+            <article class="project-card">
+              <div class="project-image project-image-three" aria-hidden="true">
+                <span>03 / PERSONAL PROJECT</span>
+              </div>
+
+              <div class="project-info">
+                <h3>Personal Developer Portfolio</h3>
+
+                <p>
+                  A responsive portfolio built with HTML, CSS, and JavaScript to
+                  showcase projects, technical interests, and development
+                  progress.
+                </p>
+
+                <ul class="tech-list" aria-label="Technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <button
+                  class="project-details"
+                  type="button"
+                  data-project="portfolio"
+                >
+                  Explore Project &rarr;
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <p class="eyebrow">LET'S CONNECT</p>
+
+          <h2>Have an Idea? Let's Talk.</h2>
+
+          <p>
+            I'm always interested in learning from others, exchanging ideas, and
+            exploring opportunities to grow as a developer. Feel free to reach
+            out.
+          </p>
+
+          <div class="contact-links">
+            <a
+              href="https://github.com/Chrisjohanes"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Christian Johanes on GitHub"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="mailto:chrisjohanes21@gmail.com"
+              aria-label="Send an email to Christian Johanes"
+            >
+              Email Me
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Project Details Modal -->
+    <dialog
+      class="project-modal"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-description"
+    >
+      <div class="modal-content">
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close project details"
+        >
+          &times;
+        </button>
+
+        <p class="eyebrow">PROJECT OVERVIEW</p>
+
+        <h2 id="modal-title">Project Title</h2>
+
+        <p class="modal-description" id="modal-description"></p>
+
+        <ul class="modal-tech-list" aria-label="Project technologies"></ul>
+
+        <a
+          class="modal-project-link"
+          href="#projects"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+        >
+          View Source Code &rarr;
+        </a>
+      </div>
+    </dialog>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="current-year">2026</span>
+          Christian Johanes. Built with curiosity and code.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
